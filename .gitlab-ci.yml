@@ -5,9 +5,9 @@ stages:
   - test
   - deploy
 
-build job:
+build-job:
   stage: build 
-  scrpt: 
+  script: 
     - python3 -V
 
 test-count:
